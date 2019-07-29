@@ -1,0 +1,9 @@
+{
+  "vsicons.presets.angular": false,
+  "standard.enable": true,
+  "standard.semistandard": true,
+  "standard.options": {
+    "global": ["describe", "it", "test", "expect", "debugger", "localStorage", "afterEach"],
+    "parser": "babel-eslint"
+  }
+}

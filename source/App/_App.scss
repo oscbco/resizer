@@ -1,0 +1,32 @@
+:global {
+  body {
+    font-family: sans;
+    margin: 0;
+    padding: 0;
+  }
+
+  #root {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+
+#wrapper {
+  background: lightblue;
+  height: 100px;
+}
+
+.menu {
+  display: inline-block;
+  background: lightcoral;
+  position: relative;
+}
+
+.right-menu {
+  background: lightcoral;
+  position: relative;
+  float: right;
+}
+
+
