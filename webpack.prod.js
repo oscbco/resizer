@@ -98,7 +98,9 @@ module.exports = {
       filename: 'build/css/[name].css',
       chunkFilename: 'build/css/[id].css'
     }),
-    new BundleAnalyzerPlugin()
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static'
+    })
   ],
   externals: {
     react: {
